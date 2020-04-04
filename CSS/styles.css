@@ -1,0 +1,318 @@
+
+/* heading section styles */
+
+#heading{
+
+  background-color: #e1f4f3;
+  font-family: "Montserrat";
+
+}
+
+.navbar-brand{
+    font-size: 1.6rem;
+}
+
+.nav-item{
+
+    padding-right: 30px;
+}
+
+
+.subText{
+
+      font-size: 1.5rem;
+      margin-top: 30px;
+      padding-bottom: 40px;
+      text-align: center;
+
+}
+
+.titleText{
+
+     font-family: "Lobster";
+     font-size: 3.5rem;
+     margin-bottom: 40px;
+     margin-top: 70px;
+     text-align: center;
+}
+
+
+
+/* cardLayout section */
+
+#cardLayout{
+
+      padding-right:50px;
+      padding-left: 65px;
+
+}
+
+
+.btn{
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.card{
+
+      background-color: #f6eedf;
+      margin: 50px 30px 50px 0 ;
+      padding: 50px;
+      text-align: center;
+
+}
+
+
+.cardContainer{
+      margin-left: 5.6%;
+      margin-right: 5.5%
+}
+
+.cardTitle{
+      font-family: "Lobster";
+      font-size: 1.6rem;
+
+      margin-bottom: 20px;
+}
+
+
+.cols{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Post Page styles */
+
+#mainContent{
+  background-color: #faf4ff;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+#bottomContainer{
+  background-color: #faf4ff;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+
+.copyright{
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-top: 20px;
+}
+.endLine{
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 4px;
+  width: 15%;
+}
+
+
+.footerLink{
+    color:#aeefec;
+    font-size: 1.3rem;
+    text-decoration: none;
+
+}
+.footerLink:hover{
+  text-decoration: none;
+  padding-bottom: 20px;
+  color:white;
+}
+
+pre{
+
+  font-family: "Montserrat";
+  font-size: 1.1rem;
+  margin: 40px 0  0;
+  text-align: center;
+
+}
+
+.poemHeader{
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.poemLink{
+    color: inherit;
+    text-decoration: none;
+}
+
+.poemLink:hover{
+
+    color:#f78259;
+    text-decoration: none;
+}
+.poemTitle{
+    font-family: "Lobster";
+
+}
+
+.poemFooter{
+    background-color: #323232;
+    padding: 30px 0 15px 0;
+
+}
+
+.stopper{
+  padding-bottom: 20px;
+}
+
+
+
+/* wait page */
+
+
+.spinner {
+	/* Size and position */
+    font-size: 100px; /* 1em */
+  	width: 1em;
+    height: 1em;
+    position: relative;
+    margin: 200px auto 10px auto;
+
+
+    /* Styles */
+    border-radius: 50%;
+    background: #FF4F72; /* Fallback */
+    background:
+        linear-gradient(#ea2d0e 50%, #fcd883 50%), /* First column */
+        linear-gradient(#fcd883 50%, #ea2d0e 50%); /* Second column */
+    background-position:
+    	0 0,    /* Position of 1st column */
+    	100% 0; /* Position of 2nd column */
+    background-size: 50% 100%; /* Contraction of "50% 100%, 50% 100%" */
+    background-repeat: no-repeat;
+    box-shadow:
+    	inset 0 0 0 .12em rgba(0,0,0,0.2), /* Inner border */
+    	0 0 0 .12em rgba(255,255,255,0.1); /* Outter border */
+    opacity: 0.7;
+    animation: rota 3s infinite alternate;
+}
+
+
+.spinner:after {
+    /* Size */
+    content: "";
+    width: 50%;
+    height: 50%;
+
+    /* Perfect centering */
+    position: absolute;
+    top: 25%;
+    left: 25%;
+
+    /* Styles */
+    border: .12em solid rgba(255,255,255,0.3);
+    border-radius: inherit;
+}
+
+@keyframes rota {
+    25%  { transform: rotate(270deg); }
+    50%  { transform: rotate( 90deg); }
+    75%  { transform: rotate(360deg); }
+    100% { transform: rotate(180deg); }
+}
+
+.wait{
+    color: #323232;
+    font-family: "Lobster";
+    font-size: 2.3rem;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.waitBody{
+    background-color: #d4f8e8;
+}
+
+
+/* Prompt List styling */
+
+
+
+
+.listHead{
+  font-family: "Lobster";
+  font-size: 2.8rem;
+}
+
+.listRow{
+    margin: 20px 0 40px 0;
+
+}
+
+.listText{
+
+    font-size: 1.2rem;
+    padding-top: 20px;
+
+}
+
+.promptHead{
+      margin: 50px 0 50px 0;
+      text-align: center;
+}
+
+.promptBody{
+    background-color: #faf4ff;
+    font-family: "Montserrat";
+}
+
+.col-4{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+
+
+.promptCount{
+
+        font-size: 1.3rem;
+        font-weight: bold;
+}
+
+
+/* About me Styles */
+
+.profileBody{
+      background-color: #dee3e2;
+}
+
+.profileHead{
+
+
+    margin: 50px 0 130px 0;
+    text-align: center;
+
+}
+
+.greeting{
+  
+  font-family: "Lobster";
+  font-size: 2.8rem;
+}
+
+.myFace{
+  border-radius: 100%;
+  margin: 0 150px 0 150px;
+  width: 50%;
+}
+
+.profileRow{
+    margin-bottom: 30px;
+}
+
+.info{
+   font-style: "Montserrat";
+   font-size: 1.3rem;
+   line-height: 1.8;
+   font-weight: 600;
+   margin-top: 100px;
+   padding: 0 20px 0 20px;
+}
